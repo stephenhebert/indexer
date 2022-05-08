@@ -17,7 +17,7 @@
         ></textarea>
       </VueTribute>
     </div>
-    <div class="min-w-1/2 font-serif text-sm">
+    <div class="w-1/2 font-serif text-sm">
       <div class="p-4 w-full h-100vh overflow-y-scroll">
         <!-- <pre>{{ indexObj ? Object.entries(indexObj).sort() : "" }}</pre> -->
         <ul>
