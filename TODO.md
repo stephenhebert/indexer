@@ -1,0 +1,3 @@
+- autosave in local storage with check icon
+- suggestions of previously entered text
+- better font 
