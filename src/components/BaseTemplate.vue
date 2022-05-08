@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-row">
-    <div class="min-w-1/4 font-mono">
+    <div class="w-1/2 font-mono text-sm">
       <VueTribute :options="vueTributeOptions">
         <textarea
           autofocus
@@ -17,7 +17,7 @@
         ></textarea>
       </VueTribute>
     </div>
-    <div class="min-w-1/4 font-serif">
+    <div class="min-w-1/2 font-serif text-sm">
       <div class="p-4 w-full h-100vh overflow-y-scroll">
         <!-- <pre>{{ indexObj ? Object.entries(indexObj).sort() : "" }}</pre> -->
         <ul>
