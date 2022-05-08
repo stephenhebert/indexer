@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "vite build && npx gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.2.31"
